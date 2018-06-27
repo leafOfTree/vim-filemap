@@ -1,5 +1,3 @@
-echom 'test vim-filemap'
-
 let g:filemap_leader = "'"
 
 let fileMap = {
@@ -7,3 +5,5 @@ let fileMap = {
             \}
 
 call filemap#active(fileMap)
+
+nnoremap 'a
