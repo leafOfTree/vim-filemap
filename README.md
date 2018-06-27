@@ -15,11 +15,13 @@ Jump to specific files by pressing one or two keys
 
 Add config in `_vimrc`
 
-    let fileMap = {
-                \'a': 'd:/a_file', 
-                \}
+```vim
+let fileMap = {
+            \'a': 'd:/a_file', 
+            \}
 
-    call filemap#active(fileMap)
+call filemap#active(fileMap)
+```
 
 
 Jump to `d:/a_file` by pressing <kbd>'a</kbd>
@@ -27,3 +29,11 @@ Jump to `d:/a_file` by pressing <kbd>'a</kbd>
 Open in a new tab  page by pressing <kbd>'ta</kbd>
 
 > Current editing file will be saved.
+
+## Options
+
+`g:filemap_leader`: change default `'` in mapping.
+
+```vim
+let g:filemap_leader = ","
+```
