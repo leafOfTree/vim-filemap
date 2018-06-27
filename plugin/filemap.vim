@@ -1,7 +1,7 @@
 if !exists("g:filemap_leader")
-	let g:filemap_leader = ";"
+	let g:filemap_leader = "'"
 endif
-let g:filemap_leader = ";"
+let g:filemap_leader = "'"
 
 function! filemap#active(map)
     if exists('a:map') && type(a:map) == v:t_dict
