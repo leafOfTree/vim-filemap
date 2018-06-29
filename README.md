@@ -13,7 +13,7 @@ Jump to specific files by pressing one or two keys
 
 ## Usage
 
-Add config in `_vimrc`
+Add config (after loading vimrc)
 
 ```vim
 let fileMap = {
